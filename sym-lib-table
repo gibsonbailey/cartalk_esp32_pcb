@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "cartalk_esp32-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/cartalk_esp32-eagle-import.kicad_sym")(options "")(descr ""))
+)
