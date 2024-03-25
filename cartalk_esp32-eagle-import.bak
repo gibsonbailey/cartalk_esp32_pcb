@@ -5424,7 +5424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "RF_Module:ESP32-WROOM-32"
+		(property "Footprint" "cartalk_esp32:WROOM32_SKINNY"
 			(at 0 0 0)
 			(effects
 				(font
@@ -5449,6 +5449,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "ki_locked" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "ESP32_WROOM32_SKINNY_1_0"
