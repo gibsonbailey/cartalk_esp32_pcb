@@ -5424,8 +5424,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:WROOM32_SKINNY"
-			(at 0 0 0)
+		(property "Footprint" "RF_Module:ESP32-WROOM-32"
+			(at 16.51 37.338 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5449,14 +5449,6 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
-			)
-		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
 			)
 		)
 		(symbol "ESP32_WROOM32_SKINNY_1_0"
@@ -5506,24 +5498,6 @@
 				)
 				(fill
 					(type none)
-				)
-			)
-			(pin passive line
-				(at 0 -27.94 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
 				)
 			)
 			(pin bidirectional line
@@ -5612,24 +5586,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 0 -27.94 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "15"
-					(effects
-						(font
-							(size 0 0)
 						)
 					)
 				)
@@ -6049,24 +6005,6 @@
 				)
 			)
 			(pin passive line
-				(at 0 -27.94 90)
-				(length 5.08)
-				(name "GND"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "38"
-					(effects
-						(font
-							(size 0 0)
-						)
-					)
-				)
-			)
-			(pin passive line
 				(at -22.86 15.24 0)
 				(length 5.08)
 				(name "IO36/SEN_VP/A1_0"
@@ -6174,6 +6112,8 @@
 					)
 				)
 			)
+		)
+		(symbol "ESP32_WROOM32_SKINNY_1_1"
 			(pin passive line
 				(at 0 -27.94 90)
 				(length 5.08)
@@ -6184,16 +6124,32 @@
 						)
 					)
 				)
-				(number "P$1"
+				(number "1"
 					(effects
 						(font
-							(size 0 0)
+							(size 1.27 1.27)
 						)
 					)
 				)
 			)
-		)
-		(symbol "ESP32_WROOM32_SKINNY_1_1"
+			(pin passive line
+				(at 3.81 -27.94 90)
+				(length 5.08)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "15"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
 			(pin input line
 				(at -22.86 29.21 0)
 				(length 5.08)
@@ -6212,7 +6168,7 @@
 					)
 				)
 			)
-			(pin input line
+			(pin passive line
 				(at -5.08 -27.94 90)
 				(length 5.08)
 				(name "BASE_GND"
