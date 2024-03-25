@@ -8177,7 +8177,7 @@
 	)
 	(symbol
 		(lib_id "cartalk_esp32-eagle-import:FIDUCIAL_1MM")
-		(at 248.92 172.72 0)
+		(at 257.81 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8185,7 +8185,7 @@
 		(dnp no)
 		(uuid "0064d957-bee1-4e97-ad8c-b8ea6e733094")
 		(property "Reference" "U$34"
-			(at 248.92 172.72 0)
+			(at 257.81 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8194,7 +8194,7 @@
 			)
 		)
 		(property "Value" "FIDUCIAL_1MM"
-			(at 248.92 172.72 0)
+			(at 257.81 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8202,8 +8202,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:FIDUCIAL_1MM"
-			(at 248.92 172.72 0)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 257.81 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8212,7 +8212,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 172.72 0)
+			(at 257.81 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8221,7 +8221,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 248.92 172.72 0)
+			(at 257.81 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8264,7 +8264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:RESPACK_4X0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 127 118.11 0)
 			(effects
 				(font
@@ -8351,7 +8351,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:SOT23-5"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 68.58 45.72 0)
 			(effects
 				(font
@@ -8429,7 +8429,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:WROOM32_SKINNY"
+		(property "Footprint" "RF_Module:ESP32-WROOM-32"
 			(at 68.58 114.3 0)
 			(effects
 				(font
@@ -8647,7 +8647,7 @@
 	)
 	(symbol
 		(lib_id "cartalk_esp32-eagle-import:MOUNTINGHOLE2.5")
-		(at 259.08 172.72 0)
+		(at 267.97 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8655,7 +8655,7 @@
 		(dnp no)
 		(uuid "0f849409-e8fa-4812-9436-bfa698df5767")
 		(property "Reference" "U$32"
-			(at 259.08 172.72 0)
+			(at 267.97 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8664,7 +8664,7 @@
 			)
 		)
 		(property "Value" "MOUNTINGHOLE2.5"
-			(at 259.08 172.72 0)
+			(at 267.97 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8672,8 +8672,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:MOUNTINGHOLE_2.5_PLATED"
-			(at 259.08 172.72 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 267.97 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8682,7 +8682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 259.08 172.72 0)
+			(at 267.97 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8691,7 +8691,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 259.08 172.72 0)
+			(at 267.97 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8734,7 +8734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:0603-NO"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.7 177.8 0)
 			(effects
 				(font
@@ -8936,7 +8936,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:4UCONN_20329_V2"
+		(property "Footprint" "smd_usb_micro_b_connector:CONN_10118192-0002LF_AMP"
 			(at 175.26 73.66 0)
 			(effects
 				(font
@@ -9081,7 +9081,7 @@
 		(dnp no)
 		(uuid "2f7304e3-0395-4687-a93b-4145877c87ac")
 		(property "Reference" "IC1"
-			(at 215.9 57.15 0)
+			(at 218.186 64.008 0)
 			(effects
 				(font
 					(size 1.778 1.5113)
@@ -9099,7 +9099,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:QFN24_4MM_SMSC"
+		(property "Footprint" "CP2104:QFN50P400X400X80-25N"
 			(at 220.98 63.5 0)
 			(effects
 				(font
@@ -9435,7 +9435,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 36.83 43.18 0)
 			(effects
 				(font
@@ -9545,7 +9545,7 @@
 	)
 	(symbol
 		(lib_id "cartalk_esp32-eagle-import:MOUNTINGHOLE2.5")
-		(at 254 172.72 0)
+		(at 262.89 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9553,7 +9553,7 @@
 		(dnp no)
 		(uuid "4dea8295-a585-4199-ac46-25919d9fb0e5")
 		(property "Reference" "U$31"
-			(at 254 172.72 0)
+			(at 262.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9562,7 +9562,7 @@
 			)
 		)
 		(property "Value" "MOUNTINGHOLE2.5"
-			(at 254 172.72 0)
+			(at 262.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9570,8 +9570,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:MOUNTINGHOLE_2.5_PLATED"
-			(at 254 172.72 0)
+		(property "Footprint" "MountingHole:MountingHole_2.5mm_Pad"
+			(at 262.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9580,7 +9580,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 172.72 0)
+			(at 262.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9589,7 +9589,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 254 172.72 0)
+			(at 262.89 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,7 +10205,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:BTN_KMR2_4.6X2.8"
+		(property "Footprint" "smd_button:PTS645SL43SMTR92LFS_CNK-L"
 			(at 139.7 53.34 0)
 			(effects
 				(font
@@ -10387,7 +10387,7 @@
 	)
 	(symbol
 		(lib_id "cartalk_esp32-eagle-import:FIDUCIAL_1MM")
-		(at 246.38 172.72 0)
+		(at 255.27 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10395,7 +10395,7 @@
 		(dnp no)
 		(uuid "984533c8-3914-4e1c-81b3-024e385841f6")
 		(property "Reference" "U$35"
-			(at 246.38 172.72 0)
+			(at 255.27 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10404,7 +10404,7 @@
 			)
 		)
 		(property "Value" "FIDUCIAL_1MM"
-			(at 246.38 172.72 0)
+			(at 255.27 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10412,8 +10412,8 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:FIDUCIAL_1MM"
-			(at 246.38 172.72 0)
+		(property "Footprint" "Fiducial:Fiducial_1mm_Mask2mm"
+			(at 255.27 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10422,7 +10422,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 172.72 0)
+			(at 255.27 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10431,7 +10431,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 172.72 0)
+			(at 255.27 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10871,7 +10871,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:0603-NO"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 27.94 50.8 0)
 			(effects
 				(font
@@ -11148,7 +11148,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:QFN24_4MM_SMSC"
+		(property "Footprint" "CP2104:QFN50P400X400X80-25N"
 			(at 261.62 76.2 0)
 			(effects
 				(font
@@ -11351,7 +11351,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:RESPACK_4X0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 142.24 35.56 0)
 			(effects
 				(font
@@ -11437,7 +11437,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:RESPACK_4X0603"
+		(property "Footprint" "Resistor_SMD:R_Array_Convex_4x0603"
 			(at 127 100.33 0)
 			(effects
 				(font
@@ -11588,7 +11588,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:CHIPLED_0805_NOOUTLINE"
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 139.7 167.64 0)
 			(effects
 				(font
@@ -11656,7 +11656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "cartalk_esp32:0603-NO"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 53.34 48.26 0)
 			(effects
 				(font

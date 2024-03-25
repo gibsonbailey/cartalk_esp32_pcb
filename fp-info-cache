@@ -1,4 +1,4 @@
-23838302048973608
+23846858761073883
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -2512,6 +2512,13 @@ speaker CUI
 0
 2
 2
+CP2104
+QFN50P400X400X80-25N
+
+
+0
+25
+25
 Calibration_Scale
 Gauge_10mm_Type1_CopperTop
 Gauge, Massstab, 10mm, CopperTop, Type 1,
@@ -97656,3 +97663,31 @@ Varistor VF
 0
 2
 2
+smd_button
+PTS645SL43SMTR92LFS_CNK
+
+PTS645SL43SMTR92LFS 
+0
+4
+4
+smd_button
+PTS645SL43SMTR92LFS_CNK-L
+
+PTS645SL43SMTR92LFS 
+0
+4
+4
+smd_button
+PTS645SL43SMTR92LFS_CNK-M
+
+PTS645SL43SMTR92LFS 
+0
+4
+4
+smd_usb_micro_b_connector
+CONN_10118192-0002LF_AMP
+
+10118192-0002LF 
+0
+11
+11
