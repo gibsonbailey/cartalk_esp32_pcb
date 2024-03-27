@@ -1302,6 +1302,120 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(layer "F.Cu")
+		(uuid "1cadda19-bed8-4210-b901-bfc5c4747271")
+		(at 137.668 127)
+		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP2"
+			(at 4.064 0 0)
+			(layer "F.SilkS")
+			(uuid "4dab1d73-37ea-47ad-848c-74d597905003")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.55 0)
+			(layer "F.Fab")
+			(uuid "86a80f04-2518-4703-82cc-b368a17b86a0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "47f01d10-f682-4160-89c0-ef555cd803d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4f62e160-3aa3-4831-a05d-441547d33321")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "16a64ccb-2426-4e82-a8c9-e67c5bfcfb71")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/28efdfef-8663-401d-9584-7b72ccd73718")
+		(sheetname "Root")
+		(sheetfile "cartalk_esp32.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "b047ea11-23a9-4450-a11f-231027ece3d7")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "746e6c95-7399-44d4-b434-07d2ac1a535d")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.4 0)
+			(layer "F.Fab")
+			(uuid "0382a012-51c1-4d7a-8344-8a38731659c3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 1 "GND")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "e6037635-0361-4bcb-aa42-6bcab2aeb887")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0805_2012Metric"
 		(layer "F.Cu")
 		(uuid "2d211f52-35b3-40b6-a493-b99d143750fe")
@@ -1938,7 +2052,7 @@
 	(footprint "CP2104:QFN50P400X400X80-25N"
 		(layer "F.Cu")
 		(uuid "5308d5dc-5e1c-439e-85c6-952f10c53b44")
-		(at 135.402 121.843)
+		(at 136.418 121.843)
 		(property "Reference" "IC1"
 			(at -0.25427 -3.43257 0)
 			(layer "F.SilkS")
@@ -4720,7 +4834,7 @@
 	(footprint "smd_usb_micro_b_connector:CONN_10118192-0002LF_AMP"
 		(layer "F.Cu")
 		(uuid "c48f00e4-7072-41dd-bad7-3a21c07d3081")
-		(at 127.366001 125.6479)
+		(at 128.788 125.512899)
 		(tags "10118192-0002LF ")
 		(property "Reference" "J1"
 			(at 0 -2.2039 0)
@@ -6081,6 +6195,120 @@
 			)
 		)
 	)
+	(footprint "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+		(layer "F.Cu")
+		(uuid "f0e59eff-1094-43c4-a981-04545a40fae1")
+		(at 121.412 127)
+		(descr "THT pad as test Point, diameter 3.0mm, hole diameter 1.5mm")
+		(tags "test point THT pad")
+		(property "Reference" "TP1"
+			(at -5.08 0 0)
+			(layer "F.SilkS")
+			(uuid "b2099f6e-7622-41b7-b469-5b457a1d5561")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 0 2.55 0)
+			(layer "F.Fab")
+			(uuid "3af2be69-4035-4401-871d-d9996bccd20d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_D3.0mm_Drill1.5mm"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "40e0ec2c-4ceb-431f-bb98-abac2dce1155")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0456cb0a-dc3a-415e-a7fd-647b668a2ee5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fd22fb8c-3c5f-4088-9108-970b7e65ae90")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property ki_fp_filters "Pin* Test*")
+		(path "/752a9f92-d195-40b2-822d-d6b00bff670f")
+		(sheetname "Root")
+		(sheetfile "cartalk_esp32.kicad_sch")
+		(attr exclude_from_pos_files)
+		(fp_circle
+			(center 0 0)
+			(end 0 1.75)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "01bfa092-f6f7-43fb-9191-e88ffa8ca019")
+		)
+		(fp_circle
+			(center 0 0)
+			(end 2 0)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill none)
+			(layer "F.CrtYd")
+			(uuid "852f7c99-5de4-44a4-9fce-ce5846f815bb")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.4 0)
+			(layer "F.Fab")
+			(uuid "b60f4702-7a06-47c9-a6c0-5c9dad39424d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at 0 0)
+			(size 3 3)
+			(drill 1.5)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 12 "VBUS")
+			(pinfunction "1")
+			(pintype "passive")
+			(uuid "b72ee0f3-99d2-4895-a24d-49e4281aeb88")
+		)
+	)
 	(footprint "Connector:Amphenol 2x8 Connector 89898-308ALF"
 		(layer "B.Cu")
 		(uuid "101cd5b8-5e83-4d42-ab72-ac316951d9f6")
@@ -7093,7 +7321,7 @@
 	)
 	(gr_rect
 		(start 118.872 80.772)
-		(end 140.208 128.016)
+		(end 140.208 129.54)
 		(stroke
 			(width 0.05)
 			(type default)
