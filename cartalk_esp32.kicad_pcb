@@ -3147,7 +3147,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R12"
-			(at 0.191 -3.2258 0)
+			(at 1.715 -0.1524 -90)
 			(layer "F.SilkS")
 			(uuid "8b61d594-af04-4185-a037-b44218380ea3")
 			(effects
@@ -3917,8 +3917,6 @@
 			)
 		)
 		(path "/df553f39-4ccb-4bb4-b632-75f4845d7166")
-		(sheetname "Root")
-		(sheetfile "cartalk_esp32.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5 -1.68)
@@ -5178,7 +5176,7 @@
 		(descr "LED SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "LED")
 		(property "Reference" "D3"
-			(at -1.715 -2.0066 -90)
+			(at -0.1148 1.2446 0)
 			(layer "F.SilkS")
 			(uuid "118ff4ae-2401-4c1d-80e2-92c27c7d4133")
 			(effects

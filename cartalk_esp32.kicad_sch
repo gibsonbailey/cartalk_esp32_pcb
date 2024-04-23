@@ -9899,7 +9899,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µF"
 			(at 100.09 54.63 90)
 			(effects
 				(font
@@ -9966,7 +9966,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 91.2 54.63 90)
 			(effects
 				(font
@@ -11479,7 +11479,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "10µF"
 			(at 204.23 50.82 90)
 			(effects
 				(font
@@ -11614,7 +11614,7 @@
 				)
 			)
 		)
-		(property "Value" "1uF"
+		(property "Value" "1µF"
 			(at 154.7 52.09 90)
 			(effects
 				(font
@@ -11762,7 +11762,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 81.28 55.88 0)
 			(effects
 				(font
